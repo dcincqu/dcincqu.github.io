@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #252323;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.all-videos {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 15%;
+    background-color: white;
+}
+
+.dc-video {
+    position: absolute;
+    background-color: pink;
+    height: 30%;
+    top: 35%;
+}
+
+.cur-video {
+    position: absolute;
+    z-index: 10;
+    background-color: blue;
+    height: 100%;
+}

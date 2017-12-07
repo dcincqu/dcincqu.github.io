@@ -1,0 +1,165 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+.title {
+    position: absolute;
+    z-index: 2;
+}
+
+.dc-logo-size-big {
+    width: 120px;
+    height: auto;
+}
+
+.ad-video,
+.qr-code-wechat,
+.qr-code-qq {
+    position: absolute;
+    z-index: 1;
+}
+
+.home-bg,
+.group-info-bg,
+.button-container {
+    position: absolute;
+    width: 100%;
+}
+
+.button-container {
+    z-index: 2;
+}
+
+.home-bg {
+    background: url("../img/DC_Home_Background.jpg") no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.group-info-bg {
+    height: 100%;
+}
+
+.group-info-bg {
+    display: none;
+}
+
+.group-info-bg > .container {
+    height: 100%;
+}
+
+.group-logo,
+.group-description-container {
+    margin: 0;
+    position: absolute;
+    height: 480px;
+    max-height: 100%;
+}
+
+.group-description {
+    margin: 0;
+    position: absolute;
+    color: #efffff;
+    font-size: 17px;
+    line-height: 200%;
+    text-shadow: 3px 3px 5px black;
+    overflow: auto;
+}
+
+.content-container > .container {
+    height:  100%;
+}
+
+.button-container {
+    background: url('../img/rail.png') repeat-x bottom left;
+    background-attachment: fixed;
+    border: none;
+    bottom: 0;
+}
+
+.group-button {
+    margin: 0;
+    border: none;
+    background: transparent;
+    position: absolute;
+}
+
+.group-img {
+    position: absolute;
+}
+
+.group-img {
+    height: 100%;
+    width: 100%;
+}
+
+.group-description {
+    top: 1%;
+    left: 12%;
+    height: 98%;
+    width: 80%;
+}
+
+.group-button-close,
+.group-button-left,
+.group-button-right {
+    max-height: 100%;
+}
+
+.ad-button-close {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 10px;
+    height: 10px;
+}
+
+.group-description-p {
+    text-indent: 2em;
+}
+
+.menu {
+    list-style-type: none;
+    position: absolute;
+    width: 105px;
+    height: auto;
+    left: 10px;
+    bottom: 40%;
+    z-index: 4;
+}
+
+.menu > li {
+    position: absolute;
+    left: 0;
+    width: 105px;
+    height: 46px;
+}
+
+.blur {
+    filter: url('../svg/blur.svg#blur'); /* firefox, chrome, opera */
+    -webkit-filter: blur(7px); /* chrome, opera */
+    -moz-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+
+    filter: progid:DXImageTransform.Microsoft.blur(PixelRadius=10, MakeShadow=false);
+}
